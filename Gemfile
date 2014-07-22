@@ -21,4 +21,3 @@ gem 'thin'
 gem 'rake'
 gem 'rspec', '~> 2.14'
 gem 'pry'
-

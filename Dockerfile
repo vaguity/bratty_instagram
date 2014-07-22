@@ -22,7 +22,8 @@ RUN apt-get update
 # Add bundler
 RUN gem install -y bundler --no-rdoc --no-ri
 
-RUN git clone https://github.com/dannguyen/bratty_instagram.git /home/bratty_instagram
+# Grab application
+# RUN git clone https://github.com/dannguyen/bratty_instagram.git /home/bratty_instagram
 
 # Setup project environment
 RUN cd /home/bratty_instagram; bundle install
