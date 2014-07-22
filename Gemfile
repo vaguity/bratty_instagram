@@ -8,6 +8,7 @@ gem 'activesupport', require: 'active_support/core_ext/hash/indifferent_access'
 gem 'actionview'
 gem 'chronic'
 gem 'andand'
+gem 'foreman'
 
 ## data stuff
 gem 'instagram'
