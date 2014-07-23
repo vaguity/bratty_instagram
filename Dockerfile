@@ -20,7 +20,7 @@ RUN apt-get install -y ruby1.9.1-dev
 RUN apt-get update
 
 # Add bundler
-RUN sudo gem install bundler --no-rdoc --no-ri
+RUN gem install bundler --no-rdoc --no-ri
 
 # Grab application
 RUN git clone https://github.com/vaguity/bratty_instagram.git /home/bratty_instagram
